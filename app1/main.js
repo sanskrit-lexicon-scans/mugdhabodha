@@ -40,7 +40,7 @@ function get_pdfpage_from_index(indexobj) {
  let vp = indexobj['vp'];
  let v = vp.substring(0,1); // ignore
  let p = vp.substring(1,4);
- let pdf = `Ragh-${p}.pdf`;
+ let pdf = `mug-${p}.pdf`;
  return pdf;
 }
 
